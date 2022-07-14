@@ -11,5 +11,5 @@
 - Leveraging UI automation testing
 - Identifying, reporting, and prioritizing bugs
 -------------------------------
-[Course Link](https://www.linkedin.com/learning/programming-foundations-software-testing-qa)
-<br>[Preview Certificate]()
+[Course Link](https://www.linkedin.com/learning/html-essential-training-4)
+<br>[Preview Certificate](https://www.linkedin.com/learning/certificates/35ce5d64dc293f2e2002a01f4fb92086a8b69cff1e4dd23893f3156c5efa0bb1)
