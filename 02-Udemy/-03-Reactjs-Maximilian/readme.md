@@ -4,85 +4,78 @@
 
 ### expenses-app (S3-S5)
 
-- [Section 3 Code](./Projects/Expenses-app/S03-project)
-- [Section 4 Code](./Projects/Expenses-app/S04-project/)
-- [Section 5 Code](./Projects/Expenses-app/S05-project/)
+- [Code](./Projects/Expenses-app/)
 
   <br/>
 
-- [Section 3 Project Live Demo]()
-- [Section 4 Project Live Demo]()
-- [Section 5 Project Live Demo]()
+- [Live Demo](https://expense05.netlify.app/)
 
 ### goals app (S6-S7)
 
-- [Section 6 Code](./Projects/goals-app/S06-project/)
-- [Section 7 Code](./Projects/goals-app/S07-project/)
+- [Code](./Projects/goals-app/S07-project/)
 
 <br/>
 
-- [Section 6 Project Live Demo]()
-- [Section 7 Project Live Demo]()
+- [Live Demo](https://course-goal05.netlify.app/)
 
 ### Section 8-9 Project
 
 - [Project-code](./Projects/section-8-9-project)
-- [Live Demo]()
+- [Live Demo](https://users-list05.netlify.app/)
 
 ### Login-app (S10)
 
 - [Project-code](./Projects/Login-app-s10/)
-- [Live Demo]()
+- [Live Demo](https://login05.netlify.app/)
 
 ### Order-food App (S11)
 
-- [Project-code](./Projects/order-food-app/S11-project/)
-- [Live Demo]()
+- [Live Demo](https://food-order05.netlify.app/)
 
 ### Section 12 Project
-
+<!-- Hi -->
 - [Project-code](./Projects/S12-project)
-- [Live Demo]()
+- [Live Demo](https://hi05.netlify.app/)
 
 ### Section 13 Project
-
+<!-- Class Section -->
 - [Project-code](./Projects/S13-project)
-- [Live Demo]()
+- [Live Demo](https://class05.netlify.app/)
 
 ### movies app(S14)
 
 - [Project-code](./Projects/movies-app)
-- [Live Demo]()
+- [Live Demo](https://movieso5.netlify.app/)
 
 ### Tasks app with firebase(S15)
 
 - [Project-code](./Projects/task-app-firbase/)
-- [Live Demo]()
+- [Live Demo](https://tasks05.netlify.app/)
 
 ### Form-app(S16)
 
 - [Project-code](./Projects/form-app)
-- [Live Demo]()
+- [Live Demo](https://form05.netlify.app/)
 
 ### Order-food App (S17)
 
 - [Project Code](./Projects/order-food-app/S17-project/)
-- [Final Project Live Live Demo]()
+- [Final Project Live Live Demo](https://food-order05.netlify.app/)
 
 ### Redux Counter(S18)
 
 - [Project-code](./Projects/redux-counter)
-- [Live Demo]()
+- [Live Demo](https://redux-counter05.netlify.app/)
 
 ### Redux Cart(S19)
 
 - [Project-code](./Projects/redux-cart)
-- [Live Demo]()
+- [Live Demo](https://redux-cart05.netlify.app/)
 
 ### Quotes app(S20)
 
 - [Project-code](./Projects/quotes-app)
-- [Live Demo]()
+- [Live Demo](https://quotes05.netlify.app/quotes)
 
 ### Authentication-page(S22)
 
