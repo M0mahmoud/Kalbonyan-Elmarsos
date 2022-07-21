@@ -12,7 +12,7 @@
 
 ### goals app (S6-S7)
 
-- [Code](./Projects/goals-app/S07-project/)
+- [Code](./Projects/goals-app/)
 
 <br/>
 
