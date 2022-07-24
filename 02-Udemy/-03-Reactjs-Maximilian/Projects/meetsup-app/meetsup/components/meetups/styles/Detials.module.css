@@ -1,0 +1,12 @@
+.detail{
+  text-align: center;
+}
+.detail img{
+  width: 100%;
+  border-radius: 9px;
+  box-shadow: 0 0 20px rgb(0 0 0 / 15%);
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+}
