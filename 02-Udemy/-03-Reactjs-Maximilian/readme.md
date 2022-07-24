@@ -89,8 +89,8 @@
 
 ### Animation-app (S24)
 
-- [Project-code](./Projects/animation-app)
-- [Live Demo]()
+- [Project-code](./Projects/animation-app/animations--02/)
+- [Live Demo](https://animations05.netlify.app/)
 
 ### Products-app(S25)
 
