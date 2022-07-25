@@ -5,17 +5,11 @@
 ### expenses-app (S3-S5)
 
 - [Code](./Projects/Expenses-app/)
-
-  <br/>
-
 - [Live Demo](https://expense05.netlify.app/)
 
 ### goals app (S6-S7)
 
 - [Code](./Projects/goals-app/)
-
-<br/>
-
 - [Live Demo](https://course-goal05.netlify.app/)
 
 ### Section 8-9 Project
@@ -95,7 +89,7 @@
 ### Products-app(S25)
 
 - [Project-code](./Projects/Products-app)
-- [Live Demo]()
+- [Live Demo](https://products05.netlify.app/)
 
 ### todo-app-TS(S27)
 
