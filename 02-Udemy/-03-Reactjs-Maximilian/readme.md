@@ -93,8 +93,8 @@
 
 ### todo-app-TS(S27)
 
-- [Project-code](./Projects/todo-app-TS)
-- [Live Demo]()
+- [Project-code](./Projects/todo-app-TS/my-typescript/)
+- [Live Demo](https://todo-ts-05.netlify.app/)
 
 ### ingredients-app(S28)
 
