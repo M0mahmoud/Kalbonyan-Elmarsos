@@ -99,7 +99,7 @@
 ### ingredients-app(S28)
 
 - [Project-code](./Projects/ingredients-app/)
-- [Live Demo]()
+- [Live Demo](https://ingredients05.netlify.app/)
 
 ### Section 29 Project
 
