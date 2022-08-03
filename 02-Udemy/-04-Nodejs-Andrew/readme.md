@@ -6,8 +6,8 @@
 ### Task Manager API
 - [Project-code](./Projects/Task-Manager-API)
 ### Weather App
-- [Project-code](./Projects/Weather-App)
-- [Live Demo]()
+- [Project-code](./Projects/Weather-App/../../Code/Web-Server/)
+- [Live Demo](https://web-server-05.herokuapp.com/)
 ### Chat App
 - [Project-code](./Projects/Chat-App)
 - [Live Demo]()
