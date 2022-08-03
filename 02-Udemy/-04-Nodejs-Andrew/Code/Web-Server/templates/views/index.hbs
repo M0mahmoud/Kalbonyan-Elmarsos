@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Home</title>
-      <link rel="stylesheet" href="./css/styles.css" />
-    <script src="./js/app.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css" />
+  <script src="./js/app.js" defer></script>
 </head>
+
 <body>
-      <div class="div">
-        {{>header}}
-        <h3>{{title}}</h3>
-        <p>Create By {{name}}</p>
-      </div>
-      
-    <div>
-      <img src="./image/wallpaperflare.jpg" alt="home image" />
+  <div>
+    {{>header}}
+
+    <p>Use this site to get your weather!</p>
+
+    <form>
+      <input placeholder="Location">
+      <button>Search</button>
+    </form>
+    <div class="main-data">
+      <p id="msg-1"></p>
+      <p id="msg-2"></p>
     </div>
 
-    {{>footer}}
+  </div>
+
+  <div id="last">
+    <h3>Your History</h3>
+    <p id="last-1"></p>
+    <p id="last-2"></p>
+  </div>
+
+  {{>footer}}
+  </div>
 </body>
+
 </html>
