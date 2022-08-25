@@ -1,7 +1,7 @@
 import { Bucket, Table } from "@serverless-stack/resources";
 
-export function StorageStack({ stack, app }) {
-  // Create the DynamoDB table // S3
+export function StorageStack({ stack }) {
+  // Create an S3 bucket
   const bucket = new Bucket(stack, "Uploads", {
     cors: [
       {
@@ -13,7 +13,7 @@ export function StorageStack({ stack, app }) {
     ],
   });
 
-  const table = new Table(stack, "Notes", {
+  const table = new Table(stack, "Notes2", {
     fields: {
       userId: "string",
       noteId: "string",

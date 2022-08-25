@@ -12,19 +12,19 @@ import { LinkContainer } from "react-router-bootstrap";
 
 //File
 import Routes from "./Routes";
+import ErrorBoundary from "./components/ErrorBoundary";
 
 //AWS
 import { Auth } from "aws-amplify";
 
 function App() {
   const nav = useNavigate();
-  const [isAuthenticated, userHasAuthenticated] = useState(false);
   const [isAuthenticating, setIsAuthenticating] = useState(true);
-
+  const [isAuthenticated, userHasAuthenticated] = useState(false);
   useEffect(() => {
     onLoad();
   }, []);
-  
+
   async function onLoad() {
     try {
       await Auth.currentSession();
@@ -34,15 +34,18 @@ function App() {
         onError(e);
       }
     }
-  
+
     setIsAuthenticating(false);
   }
 
   async function handleLogout() {
     await Auth.signOut();
+
     userHasAuthenticated(false);
+
     nav("/login");
   }
+
   return (
     !isAuthenticating && (
       <div className="App container py-3">
@@ -75,9 +78,13 @@ function App() {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <AppContext.Provider value={{ isAuthenticated, userHasAuthenticated }}>
-          <Routes />
-        </AppContext.Provider>
+        <ErrorBoundary>
+          <AppContext.Provider
+            value={{ isAuthenticated, userHasAuthenticated }}
+          >
+            <Routes />
+          </AppContext.Provider>
+        </ErrorBoundary>
       </div>
     )
   );

@@ -76,4 +76,4 @@
 
 # Learn How to Make serverless web applications
 ![0%](https://progress-bar.dev/0/?title=Done)
-- [ ] `in progress` - 18 - [Serverless Stack (SST)](04-Serverless-Stack-Project/)
+    - [x] `in progress` - 18 - [Serverless Stack (SST)](04-Serverless-Stack-Project/)
