@@ -1,55 +1,96 @@
-const mongodb = require("mongodb");
-const MongoClient = mongodb.MongoClient;
+// CRUD => Create & Read & Update & Delete
+
+// const mongodb = require("mongodb");
+// const MongoClient = mongodb.MongoClient;
+// const ObjectID = mongodb.ObjectID
+
+const { MongoClient, ObjectID } = require("mongodb");
 
 const connectionURL = "mongodb://127.0.0.1:27017";
 const dbName = "task-manager";
 
+// const id = new ObjectID();
+// console.log(id);
+// console.log(id.toHexString());
+// console.log(id.getTimestamp());
+// console.log(id.id.length);
+
 MongoClient.connect(
   connectionURL,
-  { useNewUrlParser: true },
+  { useNewUrlParser: true, useUnifiedTopology: true },
   (error, client) => {
     if (error) {
       return console.log("Unable to connect to database!");
     }
     const db = client.db(dbName);
-    // db.collection("users").insertMany(
-    //   [
-    //     {
-    //       name: "Ahmed",
-    //       age: 20,
-    //     },
-    //     {
-    //       name: "Ali",
-    //       age: 30,
-    //     },
-    //   ],
-    //   (error, result) => {
-    //     if (error) {
-    //       return console.log("ERROR");
-    //     }
-    //     console.log(result.ops);
-    //   }
-    // );
-    // console.log(client);
-
-    db.collection("taskes").insertMany(
-      [
-        {
-          todo: "Task1",
-        },
-        {
-          todo: "Task2",
-        },
-        {
-          todo: "Task3",
-        },
-      ],
-      (error, result) => {
-        if (error) {
-          return console.log("ERROR");
-        }
-        console.log(result.ops);
-      }
-    );
+  
   }
 );
+
+
+// ==============================================
+
+
+// db.collection("taskes")
+// .deleteOne({
+//   todo: "Task2",
+// })
+// .then((res) => {
+//   console.log(res);
+// })
+// .catch((err) => {
+//   console.log(err);
+// });
+
+// ==============================================
+
+// db.collection("users")
+// .updateOne(
+//   {
+//     _id: new ObjectID("6315d66aabceac774a27267f"),
+//   },
+//   {
+//     $inc: {
+//       age: 1,
+//     },
+//   }
+// )
+// .then((res) => {
+//   console.log(res);
+// })
+// .catch((err) => {
+//   console.log(err);
+// });
+// ==============================================
+
+// db.collection("users")
+// .updateOne(
+//   {
+//     _id: new ObjectID("6315d66aabceac774a27267f"),
+//   },
+//   {
+// Or You Can Use   $inc: {  age: 1,  },
+//     $set: {
+//       name: "Jon",
+//       age: 50,
+//     },
+//   }
+// )
+// .then((res) => {
+//   console.log(res);
+// })
+// .catch((err) => {
+//   console.log(err);
+// });
+// ==============================================
+
+// db.collection("users")
+// .find({ age: 30 })
+// .toArray((error, user) => {
+// });
+
+// db.collection("taskes")
+// .find({ completed: true })
+// .toArray((error, task) => {
+// });
+// ==============================================
