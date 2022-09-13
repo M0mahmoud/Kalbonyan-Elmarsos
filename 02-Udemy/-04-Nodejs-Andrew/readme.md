@@ -10,7 +10,7 @@
 - [Live Demo](https://web-server-05.herokuapp.com/)
 ### Chat App
 - [Project-code](./Projects/Chat-App)
-- [Live Demo]()
+- [Live Demo](https://chat-app05.herokuapp.com/)
 
 ---
 ## Code
@@ -19,5 +19,5 @@
 ---
 [Course-Link](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/)<br>
 
-![Certificate](https://via.placeholder.com/468x300?text=Certificate+Here)
+[Certificate](https://drive.google.com/file/d/1pYI8eG8iaFBS4nR_Sl9xN7pGRnE_AqMd/view?usp=sharing)
 
